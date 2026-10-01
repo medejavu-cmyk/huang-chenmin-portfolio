@@ -1,18 +1,24 @@
-# 黄晨敏 · 个人作品集
+# Olivia · Digital World
 
-一个可直接部署到 GitHub Pages 的静态个人网站，展示人工智能、计算机视觉、AI 智能体与创意编程项目。
+黄晨敏（Olivia）的个人网站，记录 AI、计算机视觉、视觉创作与运动文化方向的探索。
+
+## 页面
+
+- `index.html`：摄影背景入口页，点击圆形水彩头像进入主页
+- `home.html`：个人主页与项目作品
+
+## 图片
+
+图片统一存放在 `assets/`：
+
+- `landing-background.jpg`：入口背景
+- `olivia-avatar.jpg`：圆形水彩头像
+- `emotion-detection.jpg`：项目截图
 
 ## 本地预览
 
-直接打开 `index.html`，或使用任意静态文件服务器预览。
+在项目目录启动任意静态文件服务器，并打开 `index.html`。
 
-## GitHub Pages
+## 隐私
 
-仓库已包含 `.github/workflows/pages.yml`。在 GitHub 仓库的 **Settings → Pages → Build and deployment** 中将 Source 设为 **GitHub Actions**；推送到 `main` 后会自动发布。
-
-## 隐私说明
-
-- 网站没有写入电话号码、邮箱、学号、API Key、密码或其他凭据。
-- `.gitignore` 会排除常见环境变量文件。
-- 发布前仍建议检查 `git diff --cached`，确认只包含网站文件。
-
+公开版本不包含密码、API 密钥、手机号、微信号或其他私密凭据。

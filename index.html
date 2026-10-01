@@ -1,224 +1,43 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="黄晨敏的个人作品集：人工智能、计算机视觉与创意技术项目。">
-  <meta name="color-scheme" content="dark">
-  <title>黄晨敏 · AI & Creative Technology</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olivia · 黄晨敏的个人数字世界，关于人工智能、视觉创作与运动文化。">
+  <meta name="theme-color" content="#050b13">
+  <title>Olivia · Digital World</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
-<body>
-  <a class="skip-link" href="#main">跳到主要内容</a>
+<body class="landing-page">
+  <main class="landing" id="top">
+    <div class="landing-background" aria-hidden="true"></div>
+    <div class="landing-shade" aria-hidden="true"></div>
 
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="返回首页">
-      <span class="brand-mark">CM</span>
-      <span>黄晨敏</span>
-    </a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
-    <nav id="site-nav" aria-label="主导航">
-      <a href="#about">关于</a>
-      <a href="#projects">项目</a>
-      <a href="#skills">能力</a>
-      <a href="#contact">联系</a>
-    </nav>
-  </header>
+    <p class="landing-edition">OLIVIA'S DIGITAL WORLD <span>© 2026</span></p>
+    <p class="landing-coordinate">AI · VISUAL · MOVEMENT</p>
 
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">AI · COMPUTER VISION · CREATIVE CODE</p>
-        <h1 id="hero-title">把想法训练成<br><span>可以运行的作品。</span></h1>
-        <p class="hero-intro">我是黄晨敏，浙江传媒学院人工智能专业学生。关注计算机视觉、AI 应用与富有表达力的数字体验。</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">查看项目</a>
-          <a class="button button-ghost" href="#contact">认识我</a>
-        </div>
-        <dl class="hero-stats" aria-label="作品概览">
-          <div><dt>06</dt><dd>精选项目</dd></div>
-          <div><dt>04</dt><dd>核心方向</dd></div>
-          <div><dt>∞</dt><dd>持续探索</dd></div>
-        </dl>
+    <section class="landing-center" aria-labelledby="landing-title">
+      <a class="avatar-gateway" href="home.html" data-enter aria-label="点击头像进入 Olivia 的主页">
+        <span class="avatar-glass" aria-hidden="true"></span>
+        <img src="assets/olivia-avatar.jpg" alt="Olivia 的蓝色水彩头像">
+        <span class="avatar-ring" aria-hidden="true"></span>
+      </a>
+
+      <div class="landing-title-wrap">
+        <p class="landing-kicker">HUANG CHENMIN</p>
+        <h1 id="landing-title">OLIVIA</h1>
+        <p class="landing-intro">A creator between code, image and movement.</p>
       </div>
 
-      <div class="hero-visual reveal" aria-label="个人创作展示">
-        <figure class="art-card">
-          <img src="assets/artwork.jpg" alt="蓝色调人物绘画作品">
-          <figcaption>
-            <span>ARTWORK / 2025</span>
-            <strong>感知与表达</strong>
-          </figcaption>
-        </figure>
-        <div class="orbit orbit-one" aria-hidden="true"></div>
-        <div class="orbit orbit-two" aria-hidden="true"></div>
-      </div>
+      <a class="enter-link" href="home.html" data-enter>
+        <span>ENTER</span>
+        <i aria-hidden="true"></i>
+      </a>
     </section>
 
-    <section class="marquee" aria-label="研究方向">
-      <div>
-        <span>目标检测</span><i></i><span>视觉理解</span><i></i><span>RAG 智能体</span><i></i><span>创意技术</span><i></i>
-        <span>目标检测</span><i></i><span>视觉理解</span><i></i><span>RAG 智能体</span><i></i><span>创意技术</span><i></i>
-      </div>
-    </section>
-
-    <section class="section about" id="about" aria-labelledby="about-title">
-      <div class="section-heading reveal">
-        <p class="section-number">01 / ABOUT</p>
-        <h2 id="about-title">技术让我解决问题，<br>创作让我保持好奇。</h2>
-      </div>
-      <div class="about-grid">
-        <div class="portrait-wrap reveal">
-          <img src="assets/portrait.jpg" alt="黄晨敏个人照片">
-          <span class="portrait-note">From the original portfolio</span>
-        </div>
-        <div class="about-copy reveal">
-          <p class="lead">我喜欢从一个真实问题出发：整理数据、训练模型、搭建界面，再把复杂过程做成清晰可用的体验。</p>
-          <p>我的项目横跨计算机视觉、深度学习、本地知识库与多媒体智能体。相比只展示模型指标，我更关心一套方案能否被解释、被演示、被真正使用。</p>
-          <div class="about-list">
-            <div><span>正在学习</span><strong>AI 工程化与智能体应用</strong></div>
-            <div><span>擅长方向</span><strong>Python · 视觉检测 · 前端呈现</strong></div>
-            <div><span>创作兴趣</span><strong>摄影 · 绘画 · 足球</strong></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section projects" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading reveal">
-        <p class="section-number">02 / SELECTED WORK</p>
-        <h2 id="projects-title">从识别一团火，<br>到读懂一段视频。</h2>
-      </div>
-
-      <div class="filter-bar reveal" role="group" aria-label="项目筛选">
-        <button type="button" class="filter active" data-filter="all" aria-pressed="true">全部</button>
-        <button type="button" class="filter" data-filter="vision" aria-pressed="false">计算机视觉</button>
-        <button type="button" class="filter" data-filter="agent" aria-pressed="false">AI 智能体</button>
-        <button type="button" class="filter" data-filter="creative" aria-pressed="false">创意编程</button>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card project-featured reveal" data-category="vision">
-          <div class="project-image">
-            <img src="assets/fire-report.jpg" alt="火情识别系统实验报告页面">
-            <span class="project-index">01</span>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>COMPUTER VISION</span><span>2026</span></div>
-            <h3>监控场景火情识别系统</h3>
-            <p>基于 YOLO26 的火焰目标检测与图像级判定流程，完成 COCO 数据接入、训练评测、消融实验与 Gradio 可视化。</p>
-            <ul class="tags"><li>YOLO26</li><li>PyTorch</li><li>COCO</li><li>Gradio</li></ul>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="agent">
-          <div class="project-signal signal-video" aria-hidden="true">
-            <div class="signal-title">VIDEO → KNOWLEDGE</div>
-            <div class="wave"></div>
-            <div class="signal-steps"><span>ASR</span><span>INDEX</span><span>ASK</span></div>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>AI AGENT</span><span>2026</span></div>
-            <h3>喔图 AI 视频内容问答智能体</h3>
-            <p>把视频转成可检索、可总结、可问答的本地知识库，串联 FFmpeg、Whisper、仓颉后端与大模型。</p>
-            <ul class="tags"><li>仓颉</li><li>Whisper</li><li>DeepSeek</li><li>RAG</li></ul>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="vision">
-          <div class="project-image project-image-face">
-            <img src="assets/emotion-detection.jpg" alt="人脸表情分类示例图">
-            <span class="project-index">03</span>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>DEEP LEARNING</span><span>2026</span></div>
-            <h3>人脸检测与表情分析</h3>
-            <p>基于 YOLO11 的人脸定位与表情分类系统，覆盖训练、实时检测和可视化推理，并探索大模型辅助分析。</p>
-            <ul class="tags"><li>YOLO11</li><li>OpenCV</li><li>Python</li><li>Emotion</li></ul>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="agent">
-          <div class="project-signal signal-study" aria-hidden="true">
-            <span class="book-line"></span><span class="book-line"></span><span class="book-line"></span>
-            <div class="search-pulse">TOP-K</div>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>LOCAL RAG</span><span>2026</span></div>
-            <h3>学伴 StudyBuddy</h3>
-            <p>仓颉语言实现的本地知识库学习助手，使用 TF-IDF 检索课程资料，支持离线回答与可选千问增强。</p>
-            <ul class="tags"><li>仓颉</li><li>TF-IDF</li><li>Qwen</li><li>Knowledge Base</li></ul>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="creative">
-          <div class="project-signal signal-mnist" aria-hidden="true">
-            <span>7</span><span>+</span><span>2</span><span>=</span><strong>9</strong>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>INTERACTIVE AI</span><span>2026</span></div>
-            <h3>手写算式识别计算器</h3>
-            <p>结合 MNIST CNN 与交互式界面，识别手写数字和运算符，并完成算式解析、计算与结果展示。</p>
-            <ul class="tags"><li>MNIST</li><li>CNN</li><li>PyTorch</li><li>UI</li></ul>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="vision creative">
-          <div class="project-signal signal-detect" aria-hidden="true">
-            <span class="scan-line"></span>
-            <span class="box box-a">person</span>
-            <span class="box box-b">object</span>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>VISION TOOLKIT</span><span>2025</span></div>
-            <h3>YOLO 目标检测实验工具链</h3>
-            <p>围绕数据标注、训练、预测和结果可视化搭建完整实验流程，沉淀可复用的视觉检测实践。</p>
-            <ul class="tags"><li>Ultralytics</li><li>LabelImg</li><li>OpenCV</li><li>Detection</li></ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section skills" id="skills" aria-labelledby="skills-title">
-      <div class="section-heading reveal">
-        <p class="section-number">03 / CAPABILITIES</p>
-        <h2 id="skills-title">一套把原型推向作品的<br>技术组合。</h2>
-      </div>
-      <div class="skills-grid">
-        <article class="skill-block reveal">
-          <span>01</span><h3>语言与开发</h3>
-          <p>Python · C++ · JavaScript · HTML/CSS · 仓颉</p>
-        </article>
-        <article class="skill-block reveal">
-          <span>02</span><h3>AI 与视觉</h3>
-          <p>PyTorch · YOLO · OpenCV · 目标检测 · 分类</p>
-        </article>
-        <article class="skill-block reveal">
-          <span>03</span><h3>智能体与检索</h3>
-          <p>RAG · Whisper · TF-IDF · 大模型 API · Prompt</p>
-        </article>
-        <article class="skill-block reveal">
-          <span>04</span><h3>工程与呈现</h3>
-          <p>Git · Gradio · 数据处理 · UI/UX · 技术文档</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section contact" id="contact" aria-labelledby="contact-title">
-      <div class="contact-card reveal">
-        <p class="section-number">04 / CONTACT</p>
-        <h2 id="contact-title">下一次灵感，<br>从一次交流开始。</h2>
-        <p>如果你对计算机视觉、AI 应用或创意技术感兴趣，欢迎通过 GitHub 关注我的作品更新。</p>
-        <a class="button button-primary" href="https://github.com/medejavu-cmyk" target="_blank" rel="noreferrer">在 GitHub 找到我</a>
-      </div>
-    </section>
+    <p class="landing-hint">CLICK THE PORTRAIT TO ENTER</p>
   </main>
-
-  <footer>
-    <p>© <span id="year">2026</span> 黄晨敏</p>
-    <a href="#top">返回顶部</a>
-  </footer>
 </body>
 </html>
