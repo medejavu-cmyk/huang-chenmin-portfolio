@@ -3,17 +3,12 @@ document.querySelectorAll('[data-enter]').forEach((link) => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     event.preventDefault();
     document.body.classList.add('is-entering');
-    window.setTimeout(() => { window.location.href = link.href; }, 480);
+    window.setTimeout(() => { window.location.href = link.href; }, 380);
   });
 });
 
-const nav = document.querySelector('[data-nav]');
-const menuButton = document.querySelector('.menu-toggle');
-const menu = document.querySelector('#site-nav');
-
-const updateNav = () => nav?.classList.toggle('scrolled', window.scrollY > 24);
-updateNav();
-window.addEventListener('scroll', updateNav, { passive: true });
+const menuButton = document.querySelector('.menu-button');
+const menu = document.querySelector('#site-menu');
 
 menuButton?.addEventListener('click', () => {
   const open = menu?.classList.toggle('open') ?? false;

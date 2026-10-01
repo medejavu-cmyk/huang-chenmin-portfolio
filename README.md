@@ -1,23 +1,28 @@
-# Olivia · Digital World
+# Olivia · 个人网站
 
-黄晨敏（Olivia）的个人网站，记录 AI、计算机视觉、视觉创作与运动文化方向的探索。
+黄晨敏（Olivia）的多页面个人网站，内容以中文为主，记录人工智能、计算机视觉、视觉兴趣与运动文化。
 
-## 页面
+## 页面结构
 
-- `index.html`：摄影背景入口页，点击圆形水彩头像进入主页
-- `home.html`：个人主页与项目作品
+- `index.html`：摄影背景入口页
+- `home.html`：我的世界
+- `projects.html`：项目作品目录
+- `about.html`：关于我
+- `project-*.html`：独立项目详情页
 
-## 图片
+## 后续接入真实项目
 
-图片统一存放在 `assets/`：
+- 项目详情页目前是作品说明，不会伪造模型运行结果
+- Python、模型或 API 项目需要单独部署后端，再把演示地址接入详情页
+- 纯前端交互可以直接放在 GitHub Pages
+- 窝图实践的作品图与直播二维码可放入 `assets/wotu/`，再替换“关于我”页面中的占位内容
 
-- `landing-background.jpg`：入口背景
-- `olivia-avatar.jpg`：圆形水彩头像
-- `emotion-detection.jpg`：项目截图
+## 如何修改
 
-## 本地预览
-
-在项目目录启动任意静态文件服务器，并打开 `index.html`。
+- 修改页面文字：打开对应的 `.html` 文件
+- 修改颜色、字号和排版：编辑 `styles.css`
+- 修改交互：编辑 `script.js`
+- 替换图片：将图片放入 `assets/` 并更新 HTML 或 CSS 中的文件名
 
 ## 隐私
 
